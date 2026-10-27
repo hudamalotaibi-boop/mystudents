@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8ff">
+  <title>رحلتي في تعلم HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="العودة للرئيسية"><span class="brand-mark">&lt;/&gt;</span><span>رحلتي في تعلم <b>HTML</b></span></a>
+    <nav aria-label="التنقل الرئيسي"><a href="#home" class="nav-link active" data-nav="home">الرئيسية</a><a href="#objectives" class="nav-link" data-nav="objectives">أهداف الوحدة</a><a href="#help" class="nav-link" data-nav="help">التعليمات</a></nav>
+    <button class="icon-btn" id="resumeBtn" title="استعادة التقدم المحفوظ" aria-label="استعادة التقدم">↻</button>
+  </header>
+  <main>
+    <div class="journey" aria-label="مراحل الرحلة"><div class="journey-track"><span id="journeyFill"></span></div><div class="journey-labels"><span data-step="home" class="step current">البداية</span><span data-step="profile" class="step">بياناتك</span><span data-step="diagnostic" class="step">التشخيص</span><span data-step="path" class="step">مسارك</span><span data-step="results" class="step">التقرير</span></div></div>
+
+    <section id="home" class="page active">
+      <div class="hero">
+        <div class="hero-copy"><div class="eyebrow"><span class="sparkle">✦</span> تعلّمي بطريقتك، خطوة بخطوة</div><h1>كل صفحة رائعة<br><span>تبدأ بوسم صغير.</span></h1><p class="lead">اكتشفي مستواك في أساسيات HTML، ثم اتبعي رحلة تعلم تناسبك مع أنشطة قصيرة وتغذية راجعة فورية.</p><div class="hero-actions"><button class="btn primary" id="startBtn">ابدئي التقويم <span>←</span></button><a class="btn soft" href="#objectives">تعرفي على أهداف الوحدة</a></div><p class="teacher">إعداد المعلمة <strong>هدى العتيبي</strong></p></div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="code-card"><div class="dots"><i></i><i></i><i></i></div><div class="fake-code"><span class="pink">&lt;html&gt;</span><br><span class="violet">&nbsp;&nbsp;&lt;h1&gt;</span>أفكاري تصنع<br><span class="violet">&nbsp;&nbsp;&lt;/h1&gt;</span><br><span class="pink">&lt;/html&gt;</span></div><span class="mini-tag tag-a">{ } أنشئي</span><span class="mini-tag tag-b">✦ أبدعي</span></div><div class="floating-star">✦</div></div>
+      </div>
+      <div class="stats-row"><div><b>١</b><span>اختبار تشخيصي قصير</span></div><div><b>٣</b><span>مسارات تناسب مستواك</span></div><div><b>∞</b><span>فرص للمحاولة والتعلم</span></div></div>
+      <div class="section-heading"><div><span class="eyebrow">رحلتك التعليمية</span><h2>خطوات صغيرة، إنجاز كبير</h2></div><span class="section-note">أنتِ تتحكمين بسرعة تعلمك</span></div>
+      <div class="feature-grid"><article class="feature"><span class="feature-icon blue">⌕</span><h3>اكتشفي مستواك</h3><p>ابدئي بأسئلة متنوعة لتحديد المهارات التي تتقنينها وما يحتاج إلى تدريب.</p></article><article class="feature"><span class="feature-icon purple">↗</span><h3>اتبعي مسارك</h3><p>أنشطة متدرجة تبدأ من الأساسيات وتزداد تحديًا مع تقدمك.</p></article><article class="feature"><span class="feature-icon yellow">&lt;/&gt;</span><h3>جرّبي بنفسك</h3><p>اكتبي كود HTML وشاهدي نتيجته في مساحة آمنة للتجربة.</p></article></div>
+    </section>
+
+    <section id="objectives" class="page">
+      <div class="page-heading"><span class="eyebrow">ماذا ستتعلمين؟</span><h1>أهداف الوحدة</h1><p>في نهاية رحلتك، ستتمكنين من تطبيق المهارات الآتية:</p></div>
+      <div class="objective-list"><article><b>١</b><div><h3>فهم HTML</h3><p>التعرف على وظيفة HTML والتمييز بين الوسم والعنصر ووسمي الفتح والإغلاق.</p></div></article><article><b>٢</b><div><h3>بناء صفحة أساسية</h3><p>ترتيب الهيكل الأساسي وكتابة عنوان الصفحة والعناوين والفقرات.</p></div></article><article><b>٣</b><div><h3>إضافة محتوى</h3><p>استخدام الروابط والصور والقوائم والجداول والنماذج في أمثلة بسيطة.</p></div></article><article><b>٤</b><div><h3>التجربة والتصحيح</h3><p>قراءة كود HTML، توقع ما يظهر في المتصفح، واكتشاف أخطاء بسيطة وتصحيحها.</p></div></article></div>
+      <button class="btn primary" id="objectivesStart">ابدئي التقويم <span>←</span></button>
+    </section>
+
+    <section id="help" class="page">
+      <div class="page-heading"><span class="eyebrow">كيف أستخدم الموقع؟</span><h1>تعليمات الاستخدام</h1><p>اتبعي هذه الخطوات لتستفيدي من رحلتك:</p></div>
+      <div class="help-grid"><article><span>١</span><h3>أدخلي بياناتك</h3><p>اكتبي اسمك والصف أو الفصل. تُحفظ بياناتك على هذا الجهاز فقط.</p></article><article><span>٢</span><h3>أجيبي عن التشخيص</h3><p>أجيبي عن الأسئلة دون استعجال. لن تظهر الحلول أثناء الاختبار.</p></article><article><span>٣</span><h3>تعلّمي وجرّبي</h3><p>اتبعي مسارك. عند الخطأ اقرئي التلميح وحاولي مرة أخرى.</p></article><article><span>٤</span><h3>راجعي تقريرك</h3><p>اطلعي على نقاط قوتك وتوصياتك، ثم أعيدي التقويم متى شئت.</p></article></div>
+      <div class="notice"><span>🔒</span><p>لا تُرسل بياناتك إلى خادم. يحفظ الموقع التقدم في متصفحك على جهازك.</p></div>
+    </section>
+
+    <section id="profile" class="page narrow">
+      <div class="page-heading"><span class="eyebrow">الخطوة الأولى</span><h1>أهلًا بكِ في رحلتك!</h1><p>أدخلي بياناتك لنخصص تقريرك. يمكنك استخدام اسم تجريبي إذا رغبتِ.</p></div>
+      <form id="profileForm" class="panel form-panel"><label for="studentName">اسم الطالبة</label><input id="studentName" name="studentName" autocomplete="name" required maxlength="40" placeholder="مثال: سارة"><label for="className">الصف أو الفصل</label><input id="className" name="className" required maxlength="40" placeholder="مثال: الأول الثانوي - ١/أ"><button class="btn primary full" type="submit">ابدئي الاختبار التشخيصي <span>←</span></button></form>
+    </section>
+
+    <section id="diagnostic" class="page">
+      <div class="quiz-top"><div><span class="eyebrow">التقويم التشخيصي</span><h1>ما الذي تعرفينه عن HTML؟</h1><p>أجيبي عن الأسئلة الثمانية، وستظهر نتيجتك بعد الإنهاء.</p></div><div class="quiz-count"><b id="questionNumber">١</b><span>من ٨</span></div></div>
+      <div class="quiz-progress"><span id="quizFill"></span></div>
+      <div class="quiz-card panel" id="quizCard"></div>
+      <div class="quiz-controls"><button class="btn soft" id="prevQuestion">السابق</button><span id="answerStatus">اختاري إجابة للمتابعة</span><button class="btn primary" id="nextQuestion" disabled>التالي <span>←</span></button></div>
+    </section>
+
+    <section id="path" class="page">
+      <div class="path-banner"><div><span class="eyebrow">مسارك الشخصي</span><h1 id="pathTitle">مسارك جاهز</h1><p id="pathIntro"></p></div><div class="level-badge" id="levelBadge">مبتدئ</div></div>
+      <div class="score-strip panel"><div><span>نتيجتك التشخيصية</span><b id="diagnosticScore">٠٪</b></div><div class="score-bar"><span id="scoreBarFill"></span></div><p id="pathAdvice"></p></div>
+      <div class="section-heading"><div><span class="eyebrow">خطة التعلم</span><h2>أنشطتك المقترحة</h2></div><span class="section-note" id="activityCounter"></span></div>
+      <div class="activity-list" id="activityList"></div>
+      <div class="activity-detail panel hidden" id="activityDetail"></div>
+      <div class="editor-section panel"><div class="editor-heading"><div><span class="eyebrow">مختبر التجربة</span><h2>محرر HTML</h2><p>اكتبي كودًا بسيطًا وشاهدي النتيجة. يعمل العرض داخل إطار معزول دون تشغيل JavaScript.</p></div><span class="editor-icon">&lt;/&gt;</span></div><div class="editor-actions"><button class="btn small soft" id="loadExample">حمّلي مثالًا</button><button class="btn small soft" id="showHint">إظهار تلميح</button><button class="btn small ghost" id="clearCode">مسح الكود</button><button class="btn small primary" id="runCode">تشغيل ▶</button></div><div class="editor-grid"><div><label for="codeInput">اكتبي الكود هنا</label><textarea id="codeInput" spellcheck="false" dir="ltr" aria-label="محرر كود HTML"></textarea><div id="editorMessage" class="editor-message" aria-live="polite">تلميح: ابدئي بوسم &lt;h1&gt; لكتابة عنوان.</div></div><div><label>معاينة المتصفح</label><iframe id="previewFrame" title="معاينة صفحة HTML" sandbox="" referrerpolicy="no-referrer"></iframe></div></div></div>
+      <div class="group-task panel"><div><span class="eyebrow">اختياري · تعلم تعاوني</span><h2>صفحة تعريف بفريقكن</h2><p>تعاونن على صفحة تعريفية قصيرة باستخدام أمثلة HTML التي تدربتن عليها.</p></div><div class="roles"><span>✎ كاتبة المحتوى</span><span>&lt;/&gt; كاتبة الكود</span><span>◉ مختبرة الصفحة</span><span>✓ مراجعة الأخطاء</span></div><details><summary>بطاقة تقييم الفريق</summary><ul><li>تتضمن الصفحة عنوانًا وفقرة.</li><li>استخدم الفريق الوسوم المفتوحة والمغلقة بصورة مناسبة.</li><li>اختبر الفريق النتيجة وراجع الأخطاء معًا.</li></ul></details></div>
+      <div class="path-footer"><button class="btn soft" id="resetPath">إعادة التقويم</button><button class="btn primary" id="viewResults">عرض تقرير تعلمي <span>←</span></button></div>
+    </section>
+
+    <section id="results" class="page">
+      <div class="results-heading"><div><span class="eyebrow">أحسنتِ إتمام الرحلة</span><h1>تقرير تعلمك</h1><p id="reportStudent"></p></div><div class="mastery-ring" id="masteryRing"><div><b id="masteryPercent">٠٪</b><span>الإتقان</span></div></div></div>
+      <div class="result-cards"><article class="result-card"><span>الدرجة</span><b id="reportScore">٠ / ٨</b></article><article class="result-card"><span>مستواك</span><b id="reportLevel">مبتدئ</b></article><article class="result-card"><span>المحاولات</span><b id="reportAttempts">٠</b></article><article class="result-card"><span>الوقت المستغرق</span><b id="reportTime">—</b></article></div>
+      <div class="report-grid"><article class="report-box"><h2>مهارات تتقنينها <span class="good-dot"></span></h2><ul id="strengthList"></ul></article><article class="report-box"><h2>مهارات تحتاج مراجعة <span class="review-dot"></span></h2><ul id="reviewList"></ul></article></div>
+      <div class="recommendation panel"><span>✦</span><div><h2>خطوتك القادمة</h2><p id="recommendationText"></p></div></div>
+      <details class="review-box"><summary>مراجعة إجابات التشخيص</summary><div id="reviewAnswers"></div></details>
+      <div class="results-actions"><button class="btn soft" id="reviewMistakes">مراجعة الأخطاء</button><button class="btn soft" id="restartAssessment">إعادة التقويم</button><button class="btn primary" id="printReport">طباعة التقرير ⎙</button></div>
+      <p class="local-note">التقرير محفوظ في هذا المتصفح فقط، ويمكنك طباعته أو حفظه بصيغة PDF من نافذة الطباعة.</p>
+    </section>
+  </main>
+  <footer><span>رحلتك في تعلم HTML</span><span>إعداد المعلمة: هدى العتيبي</span><span>تعلمي، جرّبي، أبدعي ✦</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
